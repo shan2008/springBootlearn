@@ -24,7 +24,6 @@ public class APP  extends WebMvcConfigurerAdapter {
         fastJsonConfig.setSerializerFeatures(SerializerFeature.PrettyFormat);
         fastJsonConvert.setFastJsonConfig(fastJsonConfig);
         converters.add(fastJsonConvert);
-
     }
 
     public static void main(String[] args) {
