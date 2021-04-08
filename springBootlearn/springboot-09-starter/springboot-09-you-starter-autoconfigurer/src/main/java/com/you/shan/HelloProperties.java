@@ -1,6 +1,8 @@
 package com.you.shan;
 
 
+import org.springframework.boot.context.properties.ConfigurationProperties;
+
 @ConfigurationProperties(prefix = "atguigu.hello")
 public class HelloProperties {
 
